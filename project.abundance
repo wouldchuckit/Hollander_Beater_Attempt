@@ -4,6 +4,16 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Hollander_Beater_Attempt",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -17,6 +27,19 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.20092378752886836,
+      "uniqueID": "id-11",
+      "name": "WoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.26092378752886836,
+      "uniqueID": "id-14"
     }
   ],
   "allConnectors": [],
