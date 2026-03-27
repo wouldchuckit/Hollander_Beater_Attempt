@@ -168,7 +168,28 @@
       "ioValues": [
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "WoodThick"
+        },
+        {
+          "name": "PillowBlockWidth",
+          "ioValue": 20,
+          "currentEquation": "PillowBlockWIdth"
+        },
+        {
+          "name": "PillowBlockHeight",
+          "ioValue": 60,
+          "currentEquation": "PillowBlockHeight"
+        },
+        {
+          "name": "PillowBlockLength",
+          "ioValue": 100,
+          "currentEquation": "PillowBlockLength"
+        },
+        {
+          "name": "AxleDiameter",
+          "ioValue": 20,
+          "currentEquation": "AxleDiameter"
         }
       ],
       "topLevel": false,
@@ -191,6 +212,34 @@
           "y": 0.1,
           "uniqueID": "id-78",
           "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.16,
+          "uniqueID": "id-81",
+          "name": "PillowBlockWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.22,
+          "uniqueID": "id-84",
+          "name": "PillowBlockHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.2748267898383372,
+          "uniqueID": "id-87",
+          "name": "PillowBlockLength"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.3348267898383372,
+          "uniqueID": "id-90",
+          "name": "AxleDiameter"
         }
       ],
       "allConnectors": [],
