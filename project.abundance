@@ -34,7 +34,11 @@
       "ioValue": 10
     },
     {
-      "name": "Input",
+      "name": "AxleDiameter",
+      "ioValue": 10
+    },
+    {
+      "name": "HingeAxleDiameter",
       "ioValue": 10
     }
   ],
@@ -105,7 +109,15 @@
       "atomType": "Input",
       "x": 0.0165,
       "y": 0.6209237875288685,
-      "uniqueID": "id-32"
+      "uniqueID": "id-32",
+      "name": "AxleDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.6809237875288685,
+      "uniqueID": "id-35",
+      "name": "HingeAxleDiameter"
     }
   ],
   "allConnectors": [],
