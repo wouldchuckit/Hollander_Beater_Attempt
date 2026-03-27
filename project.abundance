@@ -40,6 +40,14 @@
     {
       "name": "HingeAxleDiameter",
       "ioValue": 10
+    },
+    {
+      "name": "LiftingBoltDiamter",
+      "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -118,6 +126,19 @@
       "y": 0.6809237875288685,
       "uniqueID": "id-35",
       "name": "HingeAxleDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7409237875288686,
+      "uniqueID": "id-38",
+      "name": "LiftingBoltDiamter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.8009237875288686,
+      "uniqueID": "id-41"
     }
   ],
   "allConnectors": [],
