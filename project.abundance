@@ -46,7 +46,7 @@
       "ioValue": 10
     },
     {
-      "name": "Input",
+      "name": "RotorLayers",
       "ioValue": 10
     }
   ],
@@ -138,7 +138,8 @@
       "atomType": "Input",
       "x": 0.0165,
       "y": 0.8009237875288686,
-      "uniqueID": "id-41"
+      "uniqueID": "id-41",
+      "name": "RotorLayers"
     }
   ],
   "allConnectors": [],
