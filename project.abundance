@@ -50,6 +50,10 @@
     {
       "name": "RotorLayers",
       "ioValue": 20
+    },
+    {
+      "name": "BitDiameter",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -190,6 +194,10 @@
           "name": "AxleDiameter",
           "ioValue": 20,
           "currentEquation": "AxleDiameter"
+        },
+        {
+          "name": "PillowBlockBoltD",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -240,10 +248,41 @@
           "y": 0.3348267898383372,
           "uniqueID": "id-90",
           "name": "AxleDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.3948267898383372,
+          "uniqueID": "id-93",
+          "name": "PillowBlockBoltD"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2998921251348436,
+          "y": 0.489607390300231,
+          "uniqueID": "id-99",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 100,
+              "currentEquation": "PillowBlockLength"
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7600000000000002,
+      "uniqueID": "id-96",
+      "name": "BitDiameter"
     }
   ],
   "allConnectors": [],
