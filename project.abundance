@@ -165,8 +165,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.17367853290183385,
-      "y": 0.279445727482679,
+      "x": 0.16181229773462785,
+      "y": 0.17551963048498845,
       "uniqueID": "id-74",
       "name": "PillowBlock",
       "ioValues": [
@@ -258,8 +258,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.2998921251348436,
-          "y": 0.489607390300231,
+          "x": 0.19201725997842503,
+          "y": 0.24942263279445726,
           "uniqueID": "id-99",
           "ioValues": [
             {
@@ -269,13 +269,141 @@
             },
             {
               "name": "y length",
+              "ioValue": 60,
+              "currentEquation": "PillowBlockHeight"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1892857142857143,
+          "y": 0.4700460829493088,
+          "uniqueID": "id-103",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 20,
+              "currentEquation": "AxleDiameter"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.29107142857142854,
+          "y": 0.29723502304147464,
+          "uniqueID": "id-106",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4011904761904762,
+          "y": 0.48387096774193544,
+          "uniqueID": "id-110",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
               "ioValue": 20,
               "currentEquation": "PillowBlockWidth"
             }
           ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.49464285714285716,
+          "y": 0.47465437788018433,
+          "uniqueID": "id-114",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30,
+              "currentEquation": "PillowBlockHeight/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5648809523809524,
+          "y": 0.5691244239631337,
+          "uniqueID": "id-124",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-99",
+          "ap2ID": "id-106"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-103",
+          "ap2ID": "id-106"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-106",
+          "ap2ID": "id-110"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-110",
+          "ap2ID": "id-114"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-114",
+          "ap2ID": "id-124"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-124",
+          "ap2ID": "id-76"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
