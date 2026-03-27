@@ -28,6 +28,10 @@
     {
       "name": "PillowBlockLength",
       "ioValue": 10
+    },
+    {
+      "name": "PillowBlockWIdth",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -85,6 +89,13 @@
       "y": 0.5009237875288683,
       "uniqueID": "id-26",
       "name": "PillowBlockLength"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.5609237875288684,
+      "uniqueID": "id-29",
+      "name": "PillowBlockWIdth"
     }
   ],
   "allConnectors": [],
