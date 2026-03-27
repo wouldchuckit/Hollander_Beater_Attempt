@@ -140,6 +140,21 @@
       "y": 0.8009237875288686,
       "uniqueID": "id-41",
       "name": "RotorLayers"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.08522114347357065,
+      "y": 0.8036951501154734,
+      "uniqueID": "id-44",
+      "name": "BackSlope",
+      "value": 10
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.08522114347357065,
+      "y": 0.9122401847575057,
+      "uniqueID": "id-46",
+      "value": 10
     }
   ],
   "allConnectors": [],
