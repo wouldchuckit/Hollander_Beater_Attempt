@@ -17,16 +17,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Import",
-      "x": 0.14563106796116507,
-      "y": 0.3348729792147806,
-      "uniqueID": "id-9",
-      "fileName": null,
-      "name": "Import",
-      "type": null,
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
