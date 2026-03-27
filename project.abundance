@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "WaterHeight",
@@ -147,14 +148,15 @@
       "y": 0.8036951501154734,
       "uniqueID": "id-44",
       "name": "BackSlope",
-      "value": 10
+      "value": 45
     },
     {
       "atomType": "Constant",
       "x": 0.08522114347357065,
       "y": 0.9122401847575057,
       "uniqueID": "id-46",
-      "value": 10
+      "name": "LeadSlope",
+      "value": 6
     }
   ],
   "allConnectors": [],
