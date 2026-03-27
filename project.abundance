@@ -10,7 +10,23 @@
       "ioValue": 10
     },
     {
-      "name": "Input",
+      "name": "WaterHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "ToothHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "ToothStock",
+      "ioValue": 10
+    },
+    {
+      "name": "PillowBlockHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "PillowBlockLength",
       "ioValue": 10
     }
   ],
@@ -39,7 +55,36 @@
       "atomType": "Input",
       "x": 0.0165,
       "y": 0.26092378752886836,
-      "uniqueID": "id-14"
+      "uniqueID": "id-14",
+      "name": "WaterHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.32092378752886835,
+      "uniqueID": "id-17",
+      "name": "ToothHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.38092378752886835,
+      "uniqueID": "id-20",
+      "name": "ToothStock"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.44092378752886835,
+      "uniqueID": "id-23",
+      "name": "PillowBlockHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.5009237875288683,
+      "uniqueID": "id-26",
+      "name": "PillowBlockLength"
     }
   ],
   "allConnectors": [],
