@@ -7,47 +7,49 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "WaterHeight",
-      "ioValue": 10
+      "ioValue": 200
     },
     {
       "name": "ToothHeight",
-      "ioValue": 10
+      "ioValue": 5
     },
     {
       "name": "ToothStock",
-      "ioValue": 10
+      "ioValue": 15
     },
     {
       "name": "PillowBlockHeight",
-      "ioValue": 10
+      "ioValue": 60
     },
     {
       "name": "PillowBlockLength",
-      "ioValue": 10
+      "ioValue": 100
     },
     {
       "name": "PillowBlockWIdth",
-      "ioValue": 10
+      "ioValue": 20
     },
     {
       "name": "AxleDiameter",
-      "ioValue": 10
+      "ioValue": 20
     },
     {
       "name": "HingeAxleDiameter",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "LiftingBoltDiamter",
-      "ioValue": 10
+      "ioValue": 7
     },
     {
       "name": "RotorLayers",
-      "ioValue": 10
+      "ioValue": 20
     }
   ],
   "topLevel": true,
@@ -143,8 +145,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.08522114347357065,
-      "y": 0.8036951501154734,
+      "x": 0.08414239482200647,
+      "y": 0.8175519630484989,
       "uniqueID": "id-44",
       "name": "BackSlope",
       "value": 45
@@ -156,6 +158,43 @@
       "uniqueID": "id-46",
       "name": "LeadSlope",
       "value": 6
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.17367853290183385,
+      "y": 0.279445727482679,
+      "uniqueID": "id-74",
+      "name": "PillowBlock",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-76",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.1,
+          "uniqueID": "id-78",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
