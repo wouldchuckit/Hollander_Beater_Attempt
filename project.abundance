@@ -269,7 +269,8 @@
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 20,
+              "currentEquation": "PillowBlockWidth"
             }
           ]
         }
