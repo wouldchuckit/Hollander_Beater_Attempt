@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "WaterHeight",
@@ -68,77 +67,77 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.20092378752886836,
+      "y": 0.1,
       "uniqueID": "id-11",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.26092378752886836,
+      "y": 0.16,
       "uniqueID": "id-14",
       "name": "WaterHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.32092378752886835,
+      "y": 0.22,
       "uniqueID": "id-17",
       "name": "ToothHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.38092378752886835,
+      "y": 0.28,
       "uniqueID": "id-20",
       "name": "ToothStock"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.44092378752886835,
+      "y": 0.34,
       "uniqueID": "id-23",
       "name": "PillowBlockHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.5009237875288683,
+      "y": 0.4,
       "uniqueID": "id-26",
       "name": "PillowBlockLength"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.5609237875288684,
+      "y": 0.46,
       "uniqueID": "id-29",
       "name": "PillowBlockWIdth"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.6209237875288685,
+      "y": 0.52,
       "uniqueID": "id-32",
       "name": "AxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.6809237875288685,
+      "y": 0.5800000000000001,
       "uniqueID": "id-35",
       "name": "HingeAxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.7409237875288686,
+      "y": 0.6400000000000001,
       "uniqueID": "id-38",
       "name": "LiftingBoltDiamter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.8009237875288686,
+      "y": 0.7000000000000002,
       "uniqueID": "id-41",
       "name": "RotorLayers"
     },
