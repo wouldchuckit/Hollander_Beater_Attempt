@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "WaterHeight",
@@ -40,8 +39,7 @@
     },
     {
       "name": "HingeAxleDiameter",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "LiftingBoltDiamter",
@@ -164,6 +162,13 @@
       "value": 6
     },
     {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7600000000000002,
+      "uniqueID": "id-96",
+      "name": "BitDiameter"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.16181229773462785,
       "y": 0.17551963048498845,
@@ -238,21 +243,21 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.2748267898383372,
+          "y": 0.28,
           "uniqueID": "id-87",
           "name": "PillowBlockLength"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.3348267898383372,
+          "y": 0.34,
           "uniqueID": "id-90",
           "name": "AxleDiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.3948267898383372,
+          "y": 0.4,
           "uniqueID": "id-93",
           "name": "PillowBlockBoltD"
         },
@@ -341,8 +346,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -358,8 +362,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "y-axis degrees",
@@ -405,13 +408,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.7600000000000002,
-      "uniqueID": "id-96",
-      "name": "BitDiameter"
     }
   ],
   "allConnectors": [],
