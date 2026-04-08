@@ -31,7 +31,7 @@
       "ioValue": 100
     },
     {
-      "name": "PillowBlockWIdth",
+      "name": "PillowBlockWidth",
       "ioValue": 20
     },
     {
@@ -116,7 +116,7 @@
       "x": 0.0165,
       "y": 0.46,
       "uniqueID": "id-29",
-      "name": "PillowBlockWIdth"
+      "name": "PillowBlockWidth"
     },
     {
       "atomType": "Input",
@@ -412,356 +412,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15372168284789645,
-      "y": 0.3394919168591224,
-      "uniqueID": "id-193",
-      "name": "OuterLayer",
-      "ioValues": [
-        {
-          "name": "WoodThick",
-          "ioValue": 10
-        },
-        {
-          "name": "WaterHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "ToothHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "ToothStock",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockLength",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockWIdth",
-          "ioValue": 10
-        },
-        {
-          "name": "AxleDiameter",
-          "ioValue": 10
-        },
-        {
-          "name": "HingeAxleDiameter",
-          "ioValue": 10
-        },
-        {
-          "name": "LiftingBoltDiamter",
-          "ioValue": 10
-        },
-        {
-          "name": "RotorLayers",
-          "ioValue": 10
-        },
-        {
-          "name": "BitDiameter",
-          "ioValue": 10
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-195",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.1,
-          "uniqueID": "id-197",
-          "name": "WoodThick"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.16,
-          "uniqueID": "id-200",
-          "name": "WaterHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.22,
-          "uniqueID": "id-203",
-          "name": "ToothHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.28,
-          "uniqueID": "id-206",
-          "name": "ToothStock"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.34,
-          "uniqueID": "id-209",
-          "name": "PillowBlockHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.4,
-          "uniqueID": "id-212",
-          "name": "PillowBlockLength"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.46,
-          "uniqueID": "id-215",
-          "name": "PillowBlockWIdth"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.52,
-          "uniqueID": "id-218",
-          "name": "AxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.5800000000000001,
-          "uniqueID": "id-221",
-          "name": "HingeAxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.6400000000000001,
-          "uniqueID": "id-224",
-          "name": "LiftingBoltDiamter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7000000000000002,
-          "uniqueID": "id-227",
-          "name": "RotorLayers"
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.13414239482200646,
-          "y": 0.7675519630484988,
-          "uniqueID": "id-230",
-          "name": "BackSlope",
-          "value": 45
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.13522114347357067,
-          "y": 0.8622401847575056,
-          "uniqueID": "id-232",
-          "name": "LeadSlope",
-          "value": 6
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7600000000000002,
-          "uniqueID": "id-234",
-          "name": "BitDiameter"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.16073354908306364,
-      "y": 0.5404157043879907,
-      "uniqueID": "id-237",
-      "name": "LowHingeLayer",
-      "ioValues": [
-        {
-          "name": "WoodThick",
-          "ioValue": 10
-        },
-        {
-          "name": "WaterHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "ToothHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "ToothStock",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockLength",
-          "ioValue": 10
-        },
-        {
-          "name": "PillowBlockWIdth",
-          "ioValue": 10
-        },
-        {
-          "name": "AxleDiameter",
-          "ioValue": 10
-        },
-        {
-          "name": "HingeAxleDiameter",
-          "ioValue": 10
-        },
-        {
-          "name": "LiftingBoltDiamter",
-          "ioValue": 10
-        },
-        {
-          "name": "RotorLayers",
-          "ioValue": 10
-        },
-        {
-          "name": "BitDiameter",
-          "ioValue": 10
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-238",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.1,
-          "uniqueID": "id-239",
-          "name": "WoodThick"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.16,
-          "uniqueID": "id-240",
-          "name": "WaterHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.22,
-          "uniqueID": "id-241",
-          "name": "ToothHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.28,
-          "uniqueID": "id-242",
-          "name": "ToothStock"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.34,
-          "uniqueID": "id-243",
-          "name": "PillowBlockHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.4,
-          "uniqueID": "id-244",
-          "name": "PillowBlockLength"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.46,
-          "uniqueID": "id-245",
-          "name": "PillowBlockWIdth"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.52,
-          "uniqueID": "id-246",
-          "name": "AxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.5800000000000001,
-          "uniqueID": "id-247",
-          "name": "HingeAxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.6400000000000001,
-          "uniqueID": "id-248",
-          "name": "LiftingBoltDiamter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7000000000000002,
-          "uniqueID": "id-249",
-          "name": "RotorLayers"
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.13414239482200646,
-          "y": 0.7675519630484988,
-          "uniqueID": "id-250",
-          "name": "BackSlope",
-          "value": 45
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.13522114347357067,
-          "y": 0.8622401847575056,
-          "uniqueID": "id-251",
-          "name": "LeadSlope",
-          "value": 6
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7600000000000002,
-          "uniqueID": "id-252",
-          "name": "BitDiameter"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.16666666666666666,
-      "y": 0.7413394919168591,
+      "x": 0.16774541531823084,
+      "y": 0.3741339491916859,
       "uniqueID": "id-283",
       "name": "SlopeRotorLayer",
       "ioValues": [
@@ -792,11 +444,13 @@
         },
         {
           "name": "PillowBlockLength",
-          "ioValue": null
+          "ioValue": 100,
+          "currentEquation": "PillowBlockLength"
         },
         {
-          "name": "PillowBlockWIdth",
-          "ioValue": null
+          "name": "PillowBlockWidth",
+          "ioValue": 20,
+          "currentEquation": "PillowBlockWidth"
         },
         {
           "name": "AxleDiameter",
@@ -805,19 +459,22 @@
         },
         {
           "name": "HingeAxleDiameter",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "HingeAxleDiameter"
         },
         {
           "name": "LiftingBoltDiamter",
-          "ioValue": 10
+          "ioValue": null
         },
         {
           "name": "RotorLayers",
-          "ioValue": 10
+          "ioValue": 20,
+          "currentEquation": "RotorLayers"
         },
         {
           "name": "BitDiameter",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "BitDiameter"
         }
       ],
       "topLevel": false,
@@ -881,7 +538,7 @@
           "x": 0.0165,
           "y": 0.46,
           "uniqueID": "id-291",
-          "name": "PillowBlockWIdth"
+          "name": "PillowBlockWidth"
         },
         {
           "atomType": "Input",
@@ -936,8 +593,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.24973031283710895,
-          "y": 0.3002309468822171,
+          "x": 0.1930960086299892,
+          "y": 0.348729792147806,
           "uniqueID": "id-329",
           "ioValues": [
             {
