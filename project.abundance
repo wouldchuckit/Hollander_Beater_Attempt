@@ -43,7 +43,7 @@
       "ioValue": 10
     },
     {
-      "name": "LiftingBoltDiamter",
+      "name": "LiftingBoltDiameter",
       "ioValue": 7
     },
     {
@@ -137,7 +137,7 @@
       "x": 0.0165,
       "y": 0.6400000000000001,
       "uniqueID": "id-38",
-      "name": "LiftingBoltDiamter"
+      "name": "LiftingBoltDiameter"
     },
     {
       "atomType": "Input",
@@ -463,8 +463,9 @@
           "currentEquation": "HingeAxleDiameter"
         },
         {
-          "name": "LiftingBoltDiamter",
-          "ioValue": null
+          "name": "LiftingBoltDiameter",
+          "ioValue": 7,
+          "currentEquation": "LiftingBoltDiameter"
         },
         {
           "name": "RotorLayers",
@@ -559,7 +560,7 @@
           "x": 0.0165,
           "y": 0.6400000000000001,
           "uniqueID": "id-294",
-          "name": "LiftingBoltDiamter"
+          "name": "LiftingBoltDiameter"
         },
         {
           "atomType": "Input",
@@ -570,15 +571,15 @@
         },
         {
           "atomType": "Constant",
-          "x": 0.07659115426105717,
-          "y": 0.8290993071593533,
+          "x": 0.1407766990291262,
+          "y": 0.792147806004619,
           "uniqueID": "id-296",
           "name": "BackSlope",
           "value": 45
         },
         {
           "atomType": "Constant",
-          "x": 0.0749730312837109,
+          "x": 0.13969795037756202,
           "y": 0.9399538106235567,
           "uniqueID": "id-297",
           "name": "LeadSlope",
@@ -609,8 +610,8 @@
         },
         {
           "atomType": "Constant",
-          "x": 0.0749730312837109,
-          "y": 0.7113163972286374,
+          "x": 0.14455231930960086,
+          "y": 0.6466512702078522,
           "uniqueID": "id-333",
           "name": "Gap",
           "value": 5
