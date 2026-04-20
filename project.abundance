@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "WaterHeight",
@@ -615,6 +614,24 @@
           "uniqueID": "id-333",
           "name": "Gap",
           "value": 5
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.35275080906148865,
+          "y": 0.5196304849884527,
+          "uniqueID": "id-434",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [],
