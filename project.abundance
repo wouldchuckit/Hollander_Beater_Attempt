@@ -642,18 +642,8 @@
           "x": 0.34633490248823134,
           "y": 0.6720554272517321,
           "uniqueID": "id-442",
-          "name": "x + y",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 1
-            },
-            {
-              "name": "y",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "x + y"
+          "name": "WaterHeight + .5 * PillowBlockHeight -  2*ToothHeight -",
+          "currentEquation": "WaterHeight + .5 * PillowBlockHeight -  2*ToothHeight -"
         }
       ],
       "allConnectors": [],
