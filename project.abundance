@@ -804,14 +804,18 @@
       "x": 0.4261057173678533,
       "y": 0.8290993071593533,
       "uniqueID": "id-619",
-      "name": "arcTan",
+      "name": "arctan(T) * PI",
       "ioValues": [
         {
-          "name": "arcTan",
+          "name": "T",
+          "ioValue": 1
+        },
+        {
+          "name": "PI",
           "ioValue": 1
         }
       ],
-      "currentEquation": "arcTan"
+      "currentEquation": "arctan(T) * PI"
     }
   ],
   "allConnectors": [
