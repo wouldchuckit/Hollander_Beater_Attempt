@@ -10,7 +10,6 @@
 - **WaterHeight** (number)
 - **ToothHeight** (number)
 - **ToothStock** (number)
-- **PillowBlockLength** (number)
 - **AxleDiameter** (number)
 - **HingeAxleDiameter** (number)
 - **LiftingBoltDiameter** (number)
@@ -18,7 +17,13 @@
 - **BitDiameter** (number)
 - **TopThick** (number)
 - **BaseHeight** (number)
-- **Input** (number)
+- **Clearance** (number)
+- **BedPlate** (number)
+- **Gap** (number)
+- **NumTeeth** (number)
+- **NumBaseTeeth** (number)
+- **NutDiameter** (number)
+- **NutThick** (number)
 
 
 

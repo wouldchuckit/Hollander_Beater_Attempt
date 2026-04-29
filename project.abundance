@@ -23,10 +23,6 @@
       "ioValue": 15
     },
     {
-      "name": "PillowBlockLength",
-      "ioValue": 100
-    },
-    {
       "name": "AxleDiameter",
       "ioValue": 20
     },
@@ -55,7 +51,31 @@
       "ioValue": 10
     },
     {
-      "name": "Input",
+      "name": "Clearance",
+      "ioValue": 10
+    },
+    {
+      "name": "BedPlate",
+      "ioValue": 10
+    },
+    {
+      "name": "Gap",
+      "ioValue": 10
+    },
+    {
+      "name": "NumTeeth",
+      "ioValue": 10
+    },
+    {
+      "name": "NumBaseTeeth",
+      "ioValue": 10
+    },
+    {
+      "name": "NutDiameter",
+      "ioValue": 10
+    },
+    {
+      "name": "NutThick",
       "ioValue": 10
     }
   ],
@@ -97,49 +117,42 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.27713625866050806,
+      "y": 0.23787528868360275,
       "uniqueID": "id-20",
       "name": "ToothStock"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.3279445727482679,
-      "uniqueID": "id-26",
-      "name": "PillowBlockLength"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.5612009237875288,
+      "y": 0.3464203233256351,
       "uniqueID": "id-32",
       "name": "AxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.4665127020785219,
+      "y": 0.2956120092378753,
       "uniqueID": "id-35",
       "name": "HingeAxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.6400000000000001,
+      "y": 0.39260969976905313,
       "uniqueID": "id-38",
       "name": "LiftingBoltDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.7000000000000002,
+      "y": 0.4434180138568129,
       "uniqueID": "id-41",
       "name": "RotorLayers"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.7600000000000002,
+      "y": 0.4919168591224019,
       "uniqueID": "id-96",
       "name": "BitDiameter"
     },
@@ -627,22 +640,65 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.8200000000000003,
+      "y": 0.5450346420323325,
       "uniqueID": "id-548",
       "name": "TopThick"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.8800000000000003,
+      "y": 0.5981524249422633,
       "uniqueID": "id-551",
       "name": "BaseHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.9400000000000004,
-      "uniqueID": "id-554"
+      "y": 0.651270207852194,
+      "uniqueID": "id-554",
+      "name": "Clearance"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7020785219399538,
+      "uniqueID": "id-557",
+      "name": "BedPlate"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7528868360277136,
+      "uniqueID": "id-560",
+      "name": "Gap"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.8128868360277135,
+      "uniqueID": "id-563",
+      "name": "NumTeeth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.8695535026943801,
+      "uniqueID": "id-566",
+      "name": "NumBaseTeeth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.9226785026943801,
+      "uniqueID": "id-569",
+      "name": "NutDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.95,
+      "uniqueID": "id-572",
+      "name": "NutThick"
     }
   ],
   "allConnectors": [],
