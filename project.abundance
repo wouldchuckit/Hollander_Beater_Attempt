@@ -713,19 +713,11 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.09061488673139158,
-      "y": 0.6304849884526559,
-      "uniqueID": "id-578",
-      "name": "UpSlope",
-      "value": 10
-    },
-    {
-      "atomType": "Constant",
       "x": 0.0895361380798274,
       "y": 0.7598152424942263,
       "uniqueID": "id-580",
       "name": "DownSlope",
-      "value": 10
+      "value": 45
     },
     {
       "atomType": "Constant",
@@ -733,20 +725,20 @@
       "y": 0.8660508083140878,
       "uniqueID": "id-582",
       "name": "TopSlope",
-      "value": 10
+      "value": 30
     },
     {
       "atomType": "Equation",
-      "x": 0.16019417475728157,
-      "y": 0.5912240184757506,
+      "x": 0.15372168284789645,
+      "y": 0.4665127020785219,
       "uniqueID": "id-584",
       "name": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter",
       "currentEquation": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter"
     },
     {
       "atomType": "Equation",
-      "x": 0.16289104638619203,
-      "y": 0.6997690531177828,
+      "x": 0.15048543689320387,
+      "y": 0.5727482678983834,
       "uniqueID": "id-598",
       "name": "WaterHeight+2*ToothHeight + r",
       "ioValues": [
@@ -759,11 +751,43 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.17152103559870552,
-      "y": 0.8175519630484989,
+      "x": 0.15264293419633224,
+      "y": 0.6743648960739029,
       "uniqueID": "id-603",
       "name": "WaterHeight + .5*AxleDiameter",
       "currentEquation": "WaterHeight + .5*AxleDiameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1494066882416397,
+      "y": 0.7644341801385681,
+      "uniqueID": "id-608",
+      "name": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 190
+        }
+      ],
+      "currentEquation": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1488673139158576,
+      "y": 0.8914549653579676,
+      "uniqueID": "id-611",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -771,6 +795,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-598"
+    },
+    {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-608"
     }
   ],
   "unitsKey": "MM",
