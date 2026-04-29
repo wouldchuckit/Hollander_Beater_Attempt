@@ -10,14 +10,15 @@
 - **WaterHeight** (number)
 - **ToothHeight** (number)
 - **ToothStock** (number)
-- **PillowBlockHeight** (number)
 - **PillowBlockLength** (number)
-- **PillowBlockWidth** (number)
 - **AxleDiameter** (number)
 - **HingeAxleDiameter** (number)
 - **LiftingBoltDiameter** (number)
 - **RotorLayers** (number)
 - **BitDiameter** (number)
+- **TopThick** (number)
+- **BaseHeight** (number)
+- **Input** (number)
 
 
 
