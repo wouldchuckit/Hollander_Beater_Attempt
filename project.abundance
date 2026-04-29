@@ -737,52 +737,42 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.16127292340884575,
-      "y": 0.8960739030023095,
+      "x": 0.16019417475728157,
+      "y": 0.5912240184757506,
       "uniqueID": "id-584",
       "name": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter",
       "currentEquation": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter"
     },
     {
-      "atomType": "Label",
-      "x": 0.348435814455232,
-      "y": 0.8683602771362586,
-      "uniqueID": "id-588",
+      "atomType": "Equation",
+      "x": 0.16289104638619203,
+      "y": 0.6997690531177828,
+      "uniqueID": "id-598",
+      "name": "WaterHeight+2*ToothHeight + r",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "text",
-          "ioValue": "label",
-          "currentEquation": "label"
-        },
-        {
-          "name": "startPosition",
-          "ioValue": [
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "name": "endPosition",
-          "ioValue": [
-            10,
-            10,
-            0
-          ]
-        },
-        {
-          "name": "color",
-          "ioValue": "#3F3CDD",
-          "currentEquation": "#3F3CDD"
+          "name": "r",
+          "ioValue": 190
         }
-      ]
+      ],
+      "currentEquation": "WaterHeight+2*ToothHeight + r"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.17152103559870552,
+      "y": 0.8175519630484989,
+      "uniqueID": "id-603",
+      "name": "WaterHeight + .5*AxleDiameter",
+      "currentEquation": "WaterHeight + .5*AxleDiameter"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-598"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
