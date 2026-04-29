@@ -773,21 +773,17 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.41423948220064727,
-      "y": 0.8452655889145496,
+      "x": 0.1494066882416397,
+      "y": 0.956120092378753,
       "uniqueID": "id-611",
-      "name": "x + y",
+      "name": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
+          "name": "r",
+          "ioValue": 190
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)"
     },
     {
       "atomType": "Equation",
@@ -802,6 +798,20 @@
         }
       ],
       "currentEquation": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4261057173678533,
+      "y": 0.8290993071593533,
+      "uniqueID": "id-619",
+      "name": "arcTan",
+      "ioValues": [
+        {
+          "name": "arcTan",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "arcTan"
     }
   ],
   "allConnectors": [
@@ -819,6 +829,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-615"
+    },
+    {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-611"
     }
   ],
   "unitsKey": "MM",
