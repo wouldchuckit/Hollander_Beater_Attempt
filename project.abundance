@@ -170,13 +170,12 @@
         },
         {
           "name": "PillowBlockWidth",
-          "ioValue": 20,
-          "currentEquation": "PillowBlockWIdth"
+          "ioValue": 30
         },
         {
           "name": "PillowBlockHeight",
-          "ioValue": 60,
-          "currentEquation": "PillowBlockHeight"
+          "ioValue": 40,
+          "currentEquation": "40"
         },
         {
           "name": "PillowBlockLength",
@@ -190,6 +189,10 @@
         },
         {
           "name": "PillowBlockBoltD",
+          "ioValue": 10
+        },
+        {
+          "name": "BearingDiameter",
           "ioValue": 10
         }
       ],
@@ -262,7 +265,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 60,
+              "ioValue": 40,
               "currentEquation": "PillowBlockHeight"
             }
           ]
@@ -308,7 +311,7 @@
             },
             {
               "name": "height",
-              "ioValue": 20,
+              "ioValue": 30,
               "currentEquation": "PillowBlockWidth"
             }
           ]
@@ -329,7 +332,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 30,
+              "ioValue": 20,
               "currentEquation": "PillowBlockHeight/2"
             },
             {
@@ -361,6 +364,13 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.46,
+          "uniqueID": "id-575",
+          "name": "BearingDiameter"
         }
       ],
       "allConnectors": [
