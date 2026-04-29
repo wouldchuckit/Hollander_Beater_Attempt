@@ -158,8 +158,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15264293419633224,
-      "y": 0.15011547344110854,
+      "x": 0.18932038834951456,
+      "y": 0.12240184757505775,
       "uniqueID": "id-74",
       "name": "PillowBlock",
       "ioValues": [
@@ -179,8 +179,8 @@
         },
         {
           "name": "PillowBlockLength",
-          "ioValue": 100,
-          "currentEquation": "PillowBlockLength"
+          "ioValue": 60,
+          "currentEquation": "60"
         },
         {
           "name": "AxleDiameter",
@@ -189,11 +189,12 @@
         },
         {
           "name": "PillowBlockBoltD",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         },
         {
           "name": "BearingDiameter",
-          "ioValue": 10
+          "ioValue": 25
         }
       ],
       "topLevel": false,
@@ -260,7 +261,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 100,
+              "ioValue": 60,
               "currentEquation": "PillowBlockLength"
             },
             {
@@ -409,8 +410,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.16774541531823084,
-      "y": 0.3741339491916859,
+      "x": 0.5280474649406689,
+      "y": 0.27713625866050806,
       "uniqueID": "id-283",
       "name": "SlopeRotorLayer",
       "ioValues": [
@@ -709,6 +710,48 @@
       "y": 0.95,
       "uniqueID": "id-572",
       "name": "NutThick"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.09061488673139158,
+      "y": 0.6304849884526559,
+      "uniqueID": "id-578",
+      "name": "UpSlope",
+      "value": 10
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.0895361380798274,
+      "y": 0.7598152424942263,
+      "uniqueID": "id-580",
+      "name": "DownSlope",
+      "value": 10
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.09169363538295577,
+      "y": 0.8660508083140878,
+      "uniqueID": "id-582",
+      "name": "TopSlope",
+      "value": 10
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.26105717367853293,
+      "y": 0.7413394919168591,
+      "uniqueID": "id-584",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [],
