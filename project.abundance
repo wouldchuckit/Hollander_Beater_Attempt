@@ -737,8 +737,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.15048543689320387,
-      "y": 0.5727482678983834,
+      "x": 0.15156418554476808,
+      "y": 0.5681293302540416,
       "uniqueID": "id-598",
       "name": "WaterHeight+2*ToothHeight + r",
       "ioValues": [
@@ -773,8 +773,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1488673139158576,
-      "y": 0.8914549653579676,
+      "x": 0.41423948220064727,
+      "y": 0.8452655889145496,
       "uniqueID": "id-611",
       "name": "x + y",
       "ioValues": [
@@ -788,6 +788,20 @@
         }
       ],
       "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.15048543689320387,
+      "y": 0.8683602771362586,
+      "uniqueID": "id-615",
+      "name": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 190
+        }
+      ],
+      "currentEquation": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter"
     }
   ],
   "allConnectors": [
@@ -800,6 +814,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-608"
+    },
+    {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-615"
     }
   ],
   "unitsKey": "MM",
