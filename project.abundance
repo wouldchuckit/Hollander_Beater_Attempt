@@ -707,7 +707,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.95,
+      "y": 1.002309468822171,
       "uniqueID": "id-572",
       "name": "NutThick"
     },
@@ -804,18 +804,14 @@
       "x": 0.4261057173678533,
       "y": 0.8290993071593533,
       "uniqueID": "id-619",
-      "name": "arctan(T) * PI",
+      "name": "arctan(T) * pi / 180",
       "ioValues": [
         {
           "name": "T",
-          "ioValue": 1
-        },
-        {
-          "name": "PI",
-          "ioValue": 1
+          "ioValue": 0.044642857142857144
         }
       ],
-      "currentEquation": "arctan(T) * PI"
+      "currentEquation": "arctan(T) * pi / 180"
     }
   ],
   "allConnectors": [
@@ -838,6 +834,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-611"
+    },
+    {
+      "ap2Name": "T",
+      "ap1ID": "id-611",
+      "ap2ID": "id-619"
     }
   ],
   "unitsKey": "MM",
