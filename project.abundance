@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "WaterHeight",
@@ -60,13 +59,11 @@
     },
     {
       "name": "Gap",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "NumTeeth",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "NumBaseTeeth",
@@ -74,8 +71,7 @@
     },
     {
       "name": "NutDiameter",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "NutThick",
@@ -106,58 +102,223 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.14549653579676675,
+      "y": 0.16,
       "uniqueID": "id-14",
       "name": "WaterHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.18937644341801385,
+      "y": 0.22,
       "uniqueID": "id-17",
       "name": "ToothHeight"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.23787528868360275,
+      "y": 0.28,
       "uniqueID": "id-20",
       "name": "ToothStock"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.3464203233256351,
+      "y": 0.34,
       "uniqueID": "id-32",
       "name": "AxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.2956120092378753,
+      "y": 0.4,
       "uniqueID": "id-35",
       "name": "HingeAxleDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.39260969976905313,
+      "y": 0.46,
       "uniqueID": "id-38",
       "name": "LiftingBoltDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.4434180138568129,
+      "y": 0.52,
       "uniqueID": "id-41",
       "name": "RotorLayers"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.4919168591224019,
+      "y": 0.5800000000000001,
       "uniqueID": "id-96",
       "name": "BitDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.6400000000000001,
+      "uniqueID": "id-548",
+      "name": "TopThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7000000000000002,
+      "uniqueID": "id-551",
+      "name": "BaseHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.7600000000000002,
+      "uniqueID": "id-554",
+      "name": "Clearance"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.8200000000000003,
+      "uniqueID": "id-557",
+      "name": "BedPlate"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.8800000000000003,
+      "uniqueID": "id-560",
+      "name": "Gap"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.9400000000000004,
+      "uniqueID": "id-563",
+      "name": "NumTeeth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.95,
+      "uniqueID": "id-566",
+      "name": "NumBaseTeeth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.95,
+      "uniqueID": "id-569",
+      "name": "NutDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.95,
+      "uniqueID": "id-572",
+      "name": "NutThick"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.07982740021574973,
+      "y": 0.7621247113163973,
+      "uniqueID": "id-580",
+      "name": "DownSlope",
+      "value": 45
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.07659115426105717,
+      "y": 0.8822170900692841,
+      "uniqueID": "id-582",
+      "name": "TopSlope",
+      "value": 30
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1483279395900755,
+      "y": 0.24711316397228636,
+      "uniqueID": "id-584",
+      "name": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter",
+      "currentEquation": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14724919093851133,
+      "y": 0.3348729792147806,
+      "uniqueID": "id-598",
+      "name": "WaterHeight+2*ToothHeight + r",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 170
+        }
+      ],
+      "currentEquation": "WaterHeight+2*ToothHeight + r"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14724919093851133,
+      "y": 0.43187066974595845,
+      "uniqueID": "id-603",
+      "name": "WaterHeight + .5*AxleDiameter",
+      "currentEquation": "WaterHeight + .5*AxleDiameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14724919093851133,
+      "y": 0.5381062355658198,
+      "uniqueID": "id-608",
+      "name": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 170
+        }
+      ],
+      "currentEquation": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14670981661272922,
+      "y": 0.7251732101616628,
+      "uniqueID": "id-611",
+      "name": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 170
+        }
+      ],
+      "currentEquation": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14617044228694714,
+      "y": 0.6304849884526559,
+      "uniqueID": "id-615",
+      "name": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 170
+        }
+      ],
+      "currentEquation": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1930960086299892,
+      "y": 0.7644341801385681,
+      "uniqueID": "id-619",
+      "name": "atan(T) * 180/ pi",
+      "ioValues": [
+        {
+          "name": "T",
+          "ioValue": 0.16304347826086957
+        }
+      ],
+      "currentEquation": "atan(T) * 180/ pi"
     },
     {
       "atomType": "Molecule",
@@ -177,13 +338,11 @@
         },
         {
           "name": "PillowBlockHeight",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 40
         },
         {
           "name": "PillowBlockLength",
-          "ioValue": 60,
-          "currentEquation": "60"
+          "ioValue": 60
         },
         {
           "name": "AxleDiameter",
@@ -192,8 +351,7 @@
         },
         {
           "name": "PillowBlockBoltD",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "BearingDiameter",
@@ -294,11 +452,11 @@
           "uniqueID": "id-106",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -379,12 +537,12 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-99",
           "ap2ID": "id-106"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-103",
           "ap2ID": "id-106"
         },
@@ -650,171 +808,6 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.5450346420323325,
-      "uniqueID": "id-548",
-      "name": "TopThick"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.5981524249422633,
-      "uniqueID": "id-551",
-      "name": "BaseHeight"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.651270207852194,
-      "uniqueID": "id-554",
-      "name": "Clearance"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.7020785219399538,
-      "uniqueID": "id-557",
-      "name": "BedPlate"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.7528868360277136,
-      "uniqueID": "id-560",
-      "name": "Gap"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.8128868360277135,
-      "uniqueID": "id-563",
-      "name": "NumTeeth"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.8695535026943801,
-      "uniqueID": "id-566",
-      "name": "NumBaseTeeth"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.9226785026943801,
-      "uniqueID": "id-569",
-      "name": "NutDiameter"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.976905311778291,
-      "uniqueID": "id-572",
-      "name": "NutThick"
-    },
-    {
-      "atomType": "Constant",
-      "x": 0.07982740021574973,
-      "y": 0.7621247113163973,
-      "uniqueID": "id-580",
-      "name": "DownSlope",
-      "value": 45
-    },
-    {
-      "atomType": "Constant",
-      "x": 0.07659115426105717,
-      "y": 0.8822170900692841,
-      "uniqueID": "id-582",
-      "name": "TopSlope",
-      "value": 30
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.1483279395900755,
-      "y": 0.24711316397228636,
-      "uniqueID": "id-584",
-      "name": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter",
-      "currentEquation": "WaterHeight - 2 * ToothHeight - BaseHeight + .5*AxleDiameter"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.14724919093851133,
-      "y": 0.3348729792147806,
-      "uniqueID": "id-598",
-      "name": "WaterHeight+2*ToothHeight + r",
-      "ioValues": [
-        {
-          "name": "r",
-          "ioValue": 170
-        }
-      ],
-      "currentEquation": "WaterHeight+2*ToothHeight + r"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.14724919093851133,
-      "y": 0.43187066974595845,
-      "uniqueID": "id-603",
-      "name": "WaterHeight + .5*AxleDiameter",
-      "currentEquation": "WaterHeight + .5*AxleDiameter"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.14724919093851133,
-      "y": 0.5381062355658198,
-      "uniqueID": "id-608",
-      "name": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick",
-      "ioValues": [
-        {
-          "name": "r",
-          "ioValue": 170
-        }
-      ],
-      "currentEquation": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.14670981661272922,
-      "y": 0.7251732101616628,
-      "uniqueID": "id-611",
-      "name": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)",
-      "ioValues": [
-        {
-          "name": "r",
-          "ioValue": 170
-        }
-      ],
-      "currentEquation": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.14617044228694714,
-      "y": 0.6304849884526559,
-      "uniqueID": "id-615",
-      "name": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter",
-      "ioValues": [
-        {
-          "name": "r",
-          "ioValue": 170
-        }
-      ],
-      "currentEquation": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.1930960086299892,
-      "y": 0.7644341801385681,
-      "uniqueID": "id-619",
-      "name": "atan(T) * 180/ pi",
-      "ioValues": [
-        {
-          "name": "T",
-          "ioValue": 0.16304347826086957
-        }
-      ],
-      "currentEquation": "atan(T) * 180/ pi"
     }
   ],
   "allConnectors": [
