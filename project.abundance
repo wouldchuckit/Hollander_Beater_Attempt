@@ -630,10 +630,44 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4541531823085221,
-      "y": 0.24018475750577367,
+      "x": 0.45145631067961167,
+      "y": 0.23787528868360275,
       "uniqueID": "id-770",
-      "name": "Molecule",
+      "name": "RotorLayer",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 10
+        },
+        {
+          "name": "AxleDiameter",
+          "ioValue": 10
+        },
+        {
+          "name": "HingeDiameter",
+          "ioValue": 10
+        },
+        {
+          "name": "RotorRadius",
+          "ioValue": 10
+        },
+        {
+          "name": "UpSlope",
+          "ioValue": 10
+        },
+        {
+          "name": "DownSlope",
+          "ioValue": 10
+        },
+        {
+          "name": "TopSlope",
+          "ioValue": 10
+        },
+        {
+          "name": "CoverCurve",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -647,6 +681,62 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.1,
+          "uniqueID": "id-774",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.16,
+          "uniqueID": "id-777",
+          "name": "AxleDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.22,
+          "uniqueID": "id-780",
+          "name": "HingeDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.28,
+          "uniqueID": "id-783",
+          "name": "RotorRadius"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.34,
+          "uniqueID": "id-786",
+          "name": "UpSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.4,
+          "uniqueID": "id-789",
+          "name": "DownSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.46,
+          "uniqueID": "id-792",
+          "name": "TopSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.52,
+          "uniqueID": "id-795",
+          "name": "CoverCurve"
         }
       ],
       "allConnectors": [],
