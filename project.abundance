@@ -691,6 +691,22 @@
         {
           "name": "BaseHeight",
           "ioValue": 10
+        },
+        {
+          "name": "AxleX",
+          "ioValue": 10
+        },
+        {
+          "name": "AxleY",
+          "ioValue": 10
+        },
+        {
+          "name": "MachineLength",
+          "ioValue": 10
+        },
+        {
+          "name": "MachineHeight",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -804,6 +820,34 @@
           "y": 0.8800000000000003,
           "uniqueID": "id-813",
           "name": "BaseHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.9400000000000004,
+          "uniqueID": "id-816",
+          "name": "AxleX"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-819",
+          "name": "AxleY"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-822",
+          "name": "MachineLength"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-825",
+          "name": "MachineHeight"
         }
       ],
       "allConnectors": [],
