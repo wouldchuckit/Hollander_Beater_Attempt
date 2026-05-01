@@ -220,16 +220,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.07982740021574973,
-      "y": 0.7621247113163973,
+      "x": 0.08036677454153182,
+      "y": 0.648960739030023,
       "uniqueID": "id-580",
       "name": "DownSlope",
       "value": 45
     },
     {
       "atomType": "Constant",
-      "x": 0.07659115426105717,
-      "y": 0.8822170900692841,
+      "x": 0.07874865156418555,
+      "y": 0.7713625866050808,
       "uniqueID": "id-582",
       "name": "TopSlope",
       "value": 30
@@ -807,20 +807,53 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.27184466019417475,
-      "y": 0.930715935334873,
+      "x": 0.14455231930960086,
+      "y": 0.8314087759815243,
       "uniqueID": "id-750",
       "name": "r + ToothHeight + Clearance",
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 1
+          "ioValue": 170
         }
       ],
       "currentEquation": "r + ToothHeight + Clearance"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4746494066882416,
+      "y": 0.7182448036951501,
+      "uniqueID": "id-755",
+      "name": "- (WaterHeight - 3*HingeAxleDiameter) * sin(",
+      "ioValues": [
+        {
+          "name": "sin",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "- (WaterHeight - 3*HingeAxleDiameter) * sin("
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.07928802588996764,
+      "y": 0.8752886836027713,
+      "uniqueID": "id-760",
+      "name": "TS *pi / 180",
+      "ioValues": [
+        {
+          "name": "TS",
+          "ioValue": 30
+        }
+      ],
+      "currentEquation": "TS *pi / 180"
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "TS",
+      "ap1ID": "id-582",
+      "ap2ID": "id-760"
+    },
     {
       "ap2Name": "r",
       "ap1ID": "id-584",
@@ -840,6 +873,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-611"
+    },
+    {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-750"
     },
     {
       "ap2Name": "T",
