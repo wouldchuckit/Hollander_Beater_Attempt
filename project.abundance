@@ -71,7 +71,8 @@
     },
     {
       "name": "NutDiameter",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "NutThick",
@@ -79,7 +80,8 @@
     },
     {
       "name": "ToothStockWidth",
-      "ioValue": 10
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
