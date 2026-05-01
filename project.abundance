@@ -787,10 +787,6 @@
               "ioValue": 1
             },
             {
-              "name": "Clearance",
-              "ioValue": 1
-            },
-            {
               "name": "Space",
               "ioValue": 1
             }
