@@ -637,7 +637,8 @@
       "ioValues": [
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         },
         {
           "name": "AxleDiameter",
@@ -665,6 +666,30 @@
         },
         {
           "name": "CoverCurve",
+          "ioValue": 10
+        },
+        {
+          "name": "ToothStock",
+          "ioValue": 10
+        },
+        {
+          "name": "ToothHeight",
+          "ioValue": 10
+        },
+        {
+          "name": "ToothThick",
+          "ioValue": 10
+        },
+        {
+          "name": "TopThick",
+          "ioValue": 10
+        },
+        {
+          "name": "BedPlateWidth",
+          "ioValue": 10
+        },
+        {
+          "name": "BaseHeight",
           "ioValue": 10
         }
       ],
@@ -737,6 +762,48 @@
           "y": 0.52,
           "uniqueID": "id-795",
           "name": "CoverCurve"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.5800000000000001,
+          "uniqueID": "id-798",
+          "name": "ToothStock"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.6400000000000001,
+          "uniqueID": "id-801",
+          "name": "ToothHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.7000000000000002,
+          "uniqueID": "id-804",
+          "name": "ToothThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.7600000000000002,
+          "uniqueID": "id-807",
+          "name": "TopThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.8200000000000003,
+          "uniqueID": "id-810",
+          "name": "BedPlateWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.8800000000000003,
+          "uniqueID": "id-813",
+          "name": "BaseHeight"
         }
       ],
       "allConnectors": [],
