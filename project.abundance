@@ -576,242 +576,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Molecule",
-      "x": 0.4563106796116505,
-      "y": 0.23094688221709006,
-      "uniqueID": "id-283",
-      "name": "SlopeRotorLayer",
-      "ioValues": [
-        {
-          "name": "WoodThick",
-          "ioValue": 10,
-          "currentEquation": "WoodThick"
-        },
-        {
-          "name": "WaterHeight",
-          "ioValue": 200,
-          "currentEquation": "WaterHeight"
-        },
-        {
-          "name": "ToothHeight",
-          "ioValue": 5,
-          "currentEquation": "ToothHeight"
-        },
-        {
-          "name": "ToothStock",
-          "ioValue": 15,
-          "currentEquation": "ToothStock"
-        },
-        {
-          "name": "PillowBlockHeight",
-          "ioValue": 60,
-          "currentEquation": "PillowBlockHeight"
-        },
-        {
-          "name": "PillowBlockLength",
-          "ioValue": 100,
-          "currentEquation": "PillowBlockLength"
-        },
-        {
-          "name": "PillowBlockWidth",
-          "ioValue": 20,
-          "currentEquation": "PillowBlockWidth"
-        },
-        {
-          "name": "AxleDiameter",
-          "ioValue": 20,
-          "currentEquation": "AxleDiameter"
-        },
-        {
-          "name": "HingeAxleDiameter",
-          "ioValue": 10,
-          "currentEquation": "HingeAxleDiameter"
-        },
-        {
-          "name": "LiftingBoltDiameter",
-          "ioValue": 7,
-          "currentEquation": "LiftingBoltDiameter"
-        },
-        {
-          "name": "RotorLayers",
-          "ioValue": 20,
-          "currentEquation": "RotorLayers"
-        },
-        {
-          "name": "BitDiameter",
-          "ioValue": 5,
-          "currentEquation": "BitDiameter"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-284",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.1,
-          "uniqueID": "id-285",
-          "name": "WoodThick"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.16,
-          "uniqueID": "id-286",
-          "name": "WaterHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.22,
-          "uniqueID": "id-287",
-          "name": "ToothHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.28,
-          "uniqueID": "id-288",
-          "name": "ToothStock"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.34,
-          "uniqueID": "id-289",
-          "name": "PillowBlockHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.4,
-          "uniqueID": "id-290",
-          "name": "PillowBlockLength"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.46,
-          "uniqueID": "id-291",
-          "name": "PillowBlockWidth"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.52,
-          "uniqueID": "id-292",
-          "name": "AxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.5800000000000001,
-          "uniqueID": "id-293",
-          "name": "HingeAxleDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.6400000000000001,
-          "uniqueID": "id-294",
-          "name": "LiftingBoltDiameter"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7000000000000002,
-          "uniqueID": "id-295",
-          "name": "RotorLayers"
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.1407766990291262,
-          "y": 0.792147806004619,
-          "uniqueID": "id-296",
-          "name": "BackSlope",
-          "value": 45
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.13969795037756202,
-          "y": 0.9399538106235567,
-          "uniqueID": "id-297",
-          "name": "LeadSlope",
-          "value": 6
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7600000000000002,
-          "uniqueID": "id-298",
-          "name": "BitDiameter"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.1930960086299892,
-          "y": 0.348729792147806,
-          "uniqueID": "id-329",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.14455231930960086,
-          "y": 0.6466512702078522,
-          "uniqueID": "id-333",
-          "name": "Gap",
-          "value": 5
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.35275080906148865,
-          "y": 0.5196304849884527,
-          "uniqueID": "id-434",
-          "name": "WaterHeight + 3 * ToothHeight + 2*Radius + Clearance + LiftingBoltDiameter + Space",
-          "ioValues": [
-            {
-              "name": "Radius",
-              "ioValue": 1
-            },
-            {
-              "name": "Space",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "WaterHeight + 3 * ToothHeight + 2*Radius + Clearance + LiftingBoltDiameter + Space"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.34633490248823134,
-          "y": 0.6720554272517321,
-          "uniqueID": "id-442",
-          "name": "WaterHeight + .5 * PillowBlockHeight -  2*ToothHeight -",
-          "currentEquation": "WaterHeight + .5 * PillowBlockHeight -  2*ToothHeight -"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
-    },
-    {
       "atomType": "Equation",
       "x": 0.14455231930960086,
       "y": 0.8314087759815243,
@@ -863,6 +627,30 @@
       "y": 0.95,
       "uniqueID": "id-767",
       "name": "ToothStockWidth"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.4541531823085221,
+      "y": 0.24018475750577367,
+      "uniqueID": "id-770",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-772",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
