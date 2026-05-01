@@ -804,6 +804,20 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.27184466019417475,
+      "y": 0.930715935334873,
+      "uniqueID": "id-750",
+      "name": "r + ToothHeight + Clearance",
+      "ioValues": [
+        {
+          "name": "r",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "r + ToothHeight + Clearance"
     }
   ],
   "allConnectors": [
