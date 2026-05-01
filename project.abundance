@@ -76,6 +76,10 @@
     {
       "name": "NutThick",
       "ioValue": 5
+    },
+    {
+      "name": "ToothStockWidth",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -322,8 +326,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.18932038834951456,
-      "y": 0.12240184757505775,
+      "x": 0.1930960086299892,
+      "y": 0.10392609699769054,
       "uniqueID": "id-74",
       "name": "PillowBlock",
       "ioValues": [
@@ -571,8 +575,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5280474649406689,
-      "y": 0.27713625866050806,
+      "x": 0.4563106796116505,
+      "y": 0.23094688221709006,
       "uniqueID": "id-283",
       "name": "SlopeRotorLayer",
       "ioValues": [
@@ -821,17 +825,21 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.4746494066882416,
-      "y": 0.7182448036951501,
+      "x": 0.1477885652642934,
+      "y": 0.9237875288683602,
       "uniqueID": "id-755",
-      "name": "- (WaterHeight - 3*HingeAxleDiameter) * sin(",
+      "name": "- (WaterHeight - 3*HingeAxleDiameter) * sin(TSR) /(1- sin(TSR)) + r + ToothHeight + Clearance",
       "ioValues": [
         {
-          "name": "sin",
-          "ioValue": 1
+          "name": "TSR",
+          "ioValue": 0.5235987755982988
+        },
+        {
+          "name": "r",
+          "ioValue": 170
         }
       ],
-      "currentEquation": "- (WaterHeight - 3*HingeAxleDiameter) * sin("
+      "currentEquation": "- (WaterHeight - 3*HingeAxleDiameter) * sin(TSR) /(1- sin(TSR)) + r + ToothHeight + Clearance"
     },
     {
       "atomType": "Equation",
@@ -846,6 +854,13 @@
         }
       ],
       "currentEquation": "TS *pi / 180"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.95,
+      "uniqueID": "id-767",
+      "name": "ToothStockWidth"
     }
   ],
   "allConnectors": [
@@ -880,9 +895,19 @@
       "ap2ID": "id-750"
     },
     {
+      "ap2Name": "r",
+      "ap1ID": "id-584",
+      "ap2ID": "id-755"
+    },
+    {
       "ap2Name": "T",
       "ap1ID": "id-611",
       "ap2ID": "id-619"
+    },
+    {
+      "ap2Name": "TSR",
+      "ap1ID": "id-760",
+      "ap2ID": "id-755"
     }
   ],
   "unitsKey": "MM",

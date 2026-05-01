@@ -24,6 +24,7 @@
 - **NumBaseTeeth** (number)
 - **NutDiameter** (number)
 - **NutThick** (number)
+- **ToothStockWidth** (number)
 
 
 
