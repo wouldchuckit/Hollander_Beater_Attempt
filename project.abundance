@@ -638,19 +638,22 @@
         {
           "name": "WoodThick",
           "ioValue": 10,
-          "currentEquation": "10"
+          "currentEquation": "WoodThick"
         },
         {
           "name": "AxleDiameter",
-          "ioValue": 10
+          "ioValue": 20,
+          "currentEquation": "AxleDiameter"
         },
         {
-          "name": "HingeDiameter",
-          "ioValue": 10
+          "name": "HingeAxleDiameter",
+          "ioValue": 10,
+          "currentEquation": "HingeAxleDiameter"
         },
         {
           "name": "RotorRadius",
-          "ioValue": 10
+          "ioValue": 170,
+          "currentEquation": "10"
         },
         {
           "name": "UpSlope",
@@ -742,7 +745,7 @@
           "x": 0.0165,
           "y": 0.22,
           "uniqueID": "id-780",
-          "name": "HingeDiameter"
+          "name": "HingeAxleDiameter"
         },
         {
           "atomType": "Input",
@@ -851,8 +854,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.31014023732470336,
-          "y": 0.3579676674364896,
+          "x": 0.29395900755124055,
+          "y": 0.5635103926096998,
           "uniqueID": "id-828",
           "ioValues": [
             {
@@ -905,6 +908,11 @@
       "ap2Name": "r",
       "ap1ID": "id-584",
       "ap2ID": "id-755"
+    },
+    {
+      "ap2Name": "RotorRadius",
+      "ap1ID": "id-584",
+      "ap2ID": "id-770"
     },
     {
       "ap2Name": "T",
