@@ -630,8 +630,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4223300970873786,
-      "y": 0.3233256351039261,
+      "x": 0.3727076591154261,
+      "y": 0.21709006928406466,
       "uniqueID": "id-770",
       "name": "RotorLayer",
       "ioValues": [
@@ -883,10 +883,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.43419633225458465,
-      "y": 0.7413394919168591,
+      "x": 0.37216828478964403,
+      "y": 0.8845265588914549,
       "uniqueID": "id-832",
-      "name": "RotorLayer",
+      "name": "LayerBlank",
       "ioValues": [
         {
           "name": "WoodThick",
