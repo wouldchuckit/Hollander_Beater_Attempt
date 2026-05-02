@@ -848,6 +848,22 @@
           "y": 0.95,
           "uniqueID": "id-825",
           "name": "MachineHeight"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.31014023732470336,
+          "y": 0.3579676674364896,
+          "uniqueID": "id-828",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [],
