@@ -1403,6 +1403,11 @@
               "name": "MachineHeight",
               "ioValue": 430,
               "currentEquation": "MachineHeight"
+            },
+            {
+              "name": "Clearance",
+              "ioValue": 5,
+              "currentEquation": "Clearance"
             }
           ],
           "topLevel": false,
@@ -1696,46 +1701,108 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 15
+                      "ioValue": 5
                     },
                     {
                       "name": "y length",
-                      "ioValue": 5
+                      "ioValue": 15
                     }
                   ]
                 },
                 {
                   "atomType": "Equation",
-                  "x": 0.19147788565264293,
-                  "y": 0.6073903002309469,
+                  "x": 0.15318230852211434,
+                  "y": 0.605080831408776,
                   "uniqueID": "id-1269",
-                  "name": "x + y",
+                  "name": "-.5*ToothStock + ToothHeight",
+                  "currentEquation": "-.5*ToothStock + ToothHeight"
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.24919093851132684,
+                  "y": 0.3787528868360277,
+                  "uniqueID": "id-1273",
                   "ioValues": [
                     {
-                      "name": "x",
-                      "ioValue": 1
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
-                      "name": "y",
-                      "ioValue": 1
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": -2.5
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
                     }
-                  ],
-                  "currentEquation": "x + y"
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.3263214670981661,
+                  "y": 0.4503464203233256,
+                  "uniqueID": "id-1279",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 10
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
                 {
-                  "ap2Name": "x length",
+                  "ap2Name": "height",
+                  "ap1ID": "id-1247",
+                  "ap2ID": "id-1279"
+                },
+                {
+                  "ap2Name": "y length",
                   "ap1ID": "id-1250",
                   "ap2ID": "id-1265"
                 },
                 {
-                  "ap2Name": "y length",
+                  "ap2Name": "x length",
                   "ap1ID": "id-1256",
                   "ap2ID": "id-1265"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1265",
+                  "ap2ID": "id-1273"
+                },
+                {
+                  "ap2Name": "yDist",
+                  "ap1ID": "id-1269",
+                  "ap2ID": "id-1273"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1273",
+                  "ap2ID": "id-1279"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-1279",
+                  "ap2ID": "id-1242"
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.95,
+              "uniqueID": "id-1283",
+              "name": "Clearance"
             }
           ],
           "allConnectors": [
