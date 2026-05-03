@@ -737,7 +737,8 @@
         },
         {
           "name": "Clearance",
-          "ioValue": 10
+          "ioValue": 5,
+          "currentEquation": "Clearance"
         }
       ],
       "topLevel": false,
@@ -1619,10 +1620,32 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.17313915857605178,
-              "y": 0.8198614318706698,
+              "x": 0.16828478964401294,
+              "y": 0.833718244803695,
               "uniqueID": "id-1240",
               "name": "Tooth",
+              "ioValues": [
+                {
+                  "name": "WoodThick",
+                  "ioValue": 10,
+                  "currentEquation": "WoodThick"
+                },
+                {
+                  "name": "ToothStock",
+                  "ioValue": 15,
+                  "currentEquation": "ToothStock"
+                },
+                {
+                  "name": "ToothHeight",
+                  "ioValue": 5,
+                  "currentEquation": "ToothHeight"
+                },
+                {
+                  "name": "ToothThick",
+                  "ioValue": 5,
+                  "currentEquation": "ToothThick"
+                }
+              ],
               "topLevel": false,
               "allAtoms": [
                 {
@@ -1636,9 +1659,82 @@
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.1,
+                  "uniqueID": "id-1247",
+                  "name": "WoodThick"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.16,
+                  "uniqueID": "id-1250",
+                  "name": "ToothStock"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.22,
+                  "uniqueID": "id-1253",
+                  "name": "ToothHeight"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.28,
+                  "uniqueID": "id-1256",
+                  "name": "ToothThick"
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.16073354908306364,
+                  "y": 0.3302540415704388,
+                  "uniqueID": "id-1265",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 15
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 5
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Equation",
+                  "x": 0.19147788565264293,
+                  "y": 0.6073903002309469,
+                  "uniqueID": "id-1269",
+                  "name": "x + y",
+                  "ioValues": [
+                    {
+                      "name": "x",
+                      "ioValue": 1
+                    },
+                    {
+                      "name": "y",
+                      "ioValue": 1
+                    }
+                  ],
+                  "currentEquation": "x + y"
                 }
               ],
-              "allConnectors": [],
+              "allConnectors": [
+                {
+                  "ap2Name": "x length",
+                  "ap1ID": "id-1250",
+                  "ap2ID": "id-1265"
+                },
+                {
+                  "ap2Name": "y length",
+                  "ap1ID": "id-1256",
+                  "ap2ID": "id-1265"
+                }
+              ],
               "fileTypeVersion": 1
             }
           ],
