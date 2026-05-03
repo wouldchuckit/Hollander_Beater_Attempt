@@ -895,7 +895,29 @@
           "x": 0.12567421790722763,
           "y": 0.24018475750577367,
           "uniqueID": "id-981",
-          "name": "MainRectangle",
+          "name": "MachineBlock",
+          "ioValues": [
+            {
+              "name": "MachineLength",
+              "ioValue": 580,
+              "currentEquation": "MachineLength"
+            },
+            {
+              "name": "MachineHeight",
+              "ioValue": 430,
+              "currentEquation": "MachineHeight"
+            },
+            {
+              "name": "AxleX",
+              "ioValue": 380,
+              "currentEquation": "AxleX"
+            },
+            {
+              "name": "AxleY",
+              "ioValue": 210,
+              "currentEquation": "AxleY"
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
             {
@@ -909,6 +931,34 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.17321016166281755,
+              "uniqueID": "id-1077",
+              "name": "MachineLength"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.23321016166281755,
+              "uniqueID": "id-1080",
+              "name": "MachineHeight"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.29321016166281755,
+              "uniqueID": "id-1083",
+              "name": "AxleX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.35321016166281755,
+              "uniqueID": "id-1086",
+              "name": "AxleY"
             }
           ],
           "allConnectors": [],
@@ -916,8 +966,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.12459546925566342,
-          "y": 0.3903002309468822,
+          "x": 0.1262135922330097,
+          "y": 0.40415704387990764,
           "uniqueID": "id-985",
           "name": "Axle",
           "topLevel": false,
@@ -940,8 +990,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.12297734627831715,
-          "y": 0.5542725173210161,
+          "x": 0.1267529665587918,
+          "y": 0.5496535796766744,
           "uniqueID": "id-989",
           "name": "HingeAxle",
           "topLevel": false,
