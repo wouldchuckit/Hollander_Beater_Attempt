@@ -726,7 +726,8 @@
         },
         {
           "name": "Gap",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "Gap"
         }
       ],
       "topLevel": false,
@@ -870,48 +871,6 @@
           "name": "MachineHeight"
         },
         {
-          "atomType": "Rectangle",
-          "x": 0.1267529665587918,
-          "y": 0.24711316397228636,
-          "uniqueID": "id-828",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.12189859762675297,
-          "y": 0.4064665127020785,
-          "uniqueID": "id-899",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 20,
-              "currentEquation": "AxleDiameter"
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.1208198489751888,
-          "y": 0.5796766743648961,
-          "uniqueID": "id-902",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10,
-              "currentEquation": "HingeAxleDiameter"
-            }
-          ]
-        },
-        {
           "atomType": "Input",
           "x": 0.0165,
           "y": 0.95,
@@ -925,6 +884,78 @@
           "y": 0.95,
           "uniqueID": "id-978",
           "name": "Gap"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.12567421790722763,
+          "y": 0.24018475750577367,
+          "uniqueID": "id-981",
+          "name": "MainRectangle",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-983",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.12459546925566342,
+          "y": 0.3903002309468822,
+          "uniqueID": "id-985",
+          "name": "Axle",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-987",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.12297734627831715,
+          "y": 0.5542725173210161,
+          "uniqueID": "id-989",
+          "name": "HingeAxle",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-991",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [],
