@@ -1250,15 +1250,23 @@
         },
         {
           "name": "NutThick",
-          "ioValue": null
+          "ioValue": 5,
+          "currentEquation": "NutThick"
         },
         {
           "name": "NutWidth",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "NutWidth"
         },
         {
           "name": "TopThick",
-          "ioValue": 10
+          "ioValue": 40,
+          "currentEquation": "TopThick"
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 10,
+          "currentEquation": "WoodThick"
         }
       ],
       "topLevel": false,
@@ -1302,6 +1310,48 @@
           "y": 0.3347344110854503,
           "uniqueID": "id-1006",
           "name": "TopThick"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.20604099244875945,
+          "y": 0.24942263279445726,
+          "uniqueID": "id-1009",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10,
+              "currentEquation": "10"
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.3947344110854503,
+          "uniqueID": "id-1013",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.16612729234088458,
+          "y": 0.4942263279445727,
+          "uniqueID": "id-1016",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [],
