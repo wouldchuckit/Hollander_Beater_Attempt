@@ -2017,7 +2017,13 @@
                 },
                 {
                   "name": "AxleX",
-                  "ioValue": 10
+                  "ioValue": 380,
+                  "currentEquation": "AxleX"
+                },
+                {
+                  "name": "AxleY",
+                  "ioValue": 210,
+                  "currentEquation": "AxleY"
                 }
               ],
               "topLevel": false,
@@ -2058,8 +2064,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.3748651564185545,
-                  "y": 0.8013856812933026,
+                  "x": 0.3635382955771306,
+                  "y": 0.7875288683602771,
                   "uniqueID": "id-1772",
                   "name": "Stacker_Tool_",
                   "ioValues": [
@@ -5068,8 +5074,8 @@
                 },
                 {
                   "atomType": "Difference",
-                  "x": 0.5728155339805825,
-                  "y": 0.2863741339491917,
+                  "x": 0.56957928802589,
+                  "y": 0.21709006928406466,
                   "uniqueID": "id-2132",
                   "ioValues": [
                     {
@@ -5130,8 +5136,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.30960086299892126,
-                  "y": 0.4965357967667437,
+                  "x": 0.2998921251348436,
+                  "y": 0.5473441108545035,
                   "uniqueID": "id-2152",
                   "ioValues": [
                     {
@@ -5144,7 +5150,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 0
+                      "ioValue": 170
                     },
                     {
                       "name": "zDist",
@@ -5154,8 +5160,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.8985976267529666,
-                  "y": 0.3787528868360277,
+                  "x": 0.88403451995685,
+                  "y": 0.41570438799076215,
                   "uniqueID": "id-2158",
                   "ioValues": [
                     {
@@ -5164,11 +5170,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 0
+                      "ioValue": 380
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 0
+                      "ioValue": 210
                     },
                     {
                       "name": "zDist",
@@ -5182,6 +5188,13 @@
                   "y": 0.34,
                   "uniqueID": "id-2164",
                   "name": "AxleX"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.4,
+                  "uniqueID": "id-2167",
+                  "name": "AxleY"
                 }
               ],
               "allConnectors": [
@@ -5194,6 +5207,16 @@
                   "ap2Name": "diameter",
                   "ap1ID": "id-1626",
                   "ap2ID": "id-2129"
+                },
+                {
+                  "ap2Name": "yDist",
+                  "ap1ID": "id-1626",
+                  "ap2ID": "id-2152"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1635",
+                  "ap2ID": "id-2152"
                 },
                 {
                   "ap2Name": "ElementsNumber",
@@ -5231,9 +5254,24 @@
                   "ap2ID": "id-1772"
                 },
                 {
+                  "ap2Name": "Shape",
+                  "ap1ID": "id-2152",
+                  "ap2ID": "id-1772"
+                },
+                {
                   "ap2Name": "number or geometry",
                   "ap1ID": "id-2158",
                   "ap2ID": "id-1238"
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": "id-2164",
+                  "ap2ID": "id-2158"
+                },
+                {
+                  "ap2Name": "yDist",
+                  "ap1ID": "id-2167",
+                  "ap2ID": "id-2158"
                 }
               ],
               "fileTypeVersion": 1
