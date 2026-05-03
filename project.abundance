@@ -734,6 +734,10 @@
         {
           "name": "LiftingBolt",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Clearance",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1316,11 +1320,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "Gap",
-              "ioValue": 10,
-              "currentEquation": "Gap"
-            },
-            {
               "name": "WoodThick",
               "ioValue": 10,
               "currentEquation": "WoodThick"
@@ -1430,91 +1429,84 @@
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.16,
-              "uniqueID": "id-1154",
-              "name": "Gap"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "y": 0.16397228637413394,
               "uniqueID": "id-1157",
               "name": "WoodThick"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.28,
+              "y": 0.22863741339491916,
               "uniqueID": "id-1160",
               "name": "HingeAxleDiameter"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.34,
+              "y": 0.2817551963048499,
               "uniqueID": "id-1163",
               "name": "RotorRadius"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.4,
+              "y": 0.34411085450346424,
               "uniqueID": "id-1166",
               "name": "UpSlope"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.46,
+              "y": 0.4064665127020785,
               "uniqueID": "id-1169",
               "name": "DownSlope"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.52,
+              "y": 0.46420323325635104,
               "uniqueID": "id-1172",
               "name": "TopSlope"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.5800000000000001,
+              "y": 0.5242494226327945,
               "uniqueID": "id-1175",
               "name": "CoverCurve"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.6400000000000001,
+              "y": 0.584295612009238,
               "uniqueID": "id-1178",
               "name": "ToothStock"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.7000000000000002,
+              "y": 0.6420323325635103,
               "uniqueID": "id-1181",
               "name": "ToothHeight"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.7600000000000002,
+              "y": 0.7090069284064665,
               "uniqueID": "id-1184",
               "name": "ToothThick"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.8200000000000003,
+              "y": 0.7621247113163973,
               "uniqueID": "id-1187",
               "name": "TopThick"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.8800000000000003,
+              "y": 0.8083140877598153,
               "uniqueID": "id-1190",
               "name": "BedPlateWidth"
             },
@@ -1542,23 +1534,23 @@
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.95,
+              "y": 0.9076212471131639,
               "uniqueID": "id-1205",
               "name": "MachineLength"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.95,
+              "y": 0.8683602771362586,
               "uniqueID": "id-1208",
               "name": "MachineHeight"
             },
             {
               "atomType": "Molecule",
-              "x": 0.16073354908306364,
-              "y": 0.4295612009237875,
+              "x": 0.1650485436893204,
+              "y": 0.3787528868360277,
               "uniqueID": "id-1228",
-              "name": "Molecule",
+              "name": "BottomSection",
               "topLevel": false,
               "allAtoms": [
                 {
@@ -1566,6 +1558,78 @@
                   "x": 0.98,
                   "y": 0.5,
                   "uniqueID": "id-1230",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.16720604099244876,
+              "y": 0.5381062355658198,
+              "uniqueID": "id-1232",
+              "name": "TopSection",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1234",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.16936353829557713,
+              "y": 0.6812933025404158,
+              "uniqueID": "id-1236",
+              "name": "Rotor",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1238",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.17313915857605178,
+              "y": 0.8198614318706698,
+              "uniqueID": "id-1240",
+              "name": "Tooth",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1242",
                   "ioValues": [
                     {
                       "name": "number or geometry",
@@ -1586,6 +1650,13 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-1244",
+          "name": "Clearance"
         }
       ],
       "allConnectors": [
