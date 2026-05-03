@@ -916,6 +916,21 @@
               "name": "AxleY",
               "ioValue": 210,
               "currentEquation": "AxleY"
+            },
+            {
+              "name": "AxleDiameter",
+              "ioValue": 20,
+              "currentEquation": "AxleDiameter"
+            },
+            {
+              "name": "HingeAxleDiameter",
+              "ioValue": 10,
+              "currentEquation": "HingeAxleDiameter"
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
             }
           ],
           "topLevel": false,
@@ -959,57 +974,129 @@
               "y": 0.35321016166281755,
               "uniqueID": "id-1086",
               "name": "AxleY"
-            }
-          ],
-          "allConnectors": [],
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Molecule",
-          "x": 0.1262135922330097,
-          "y": 0.40415704387990764,
-          "uniqueID": "id-985",
-          "name": "Axle",
-          "topLevel": false,
-          "allAtoms": [
+            },
             {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-987",
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.41321016166281754,
+              "uniqueID": "id-1089",
+              "name": "AxleDiameter"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.47321016166281754,
+              "uniqueID": "id-1092",
+              "name": "HingeAxleDiameter"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.21682847896440127,
+              "y": 0.2586605080831409,
+              "uniqueID": "id-1095",
               "ioValues": [
                 {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
+                  "name": "x length",
+                  "ioValue": 580
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 430
                 }
               ]
-            }
-          ],
-          "allConnectors": [],
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Molecule",
-          "x": 0.1267529665587918,
-          "y": 0.5496535796766744,
-          "uniqueID": "id-989",
-          "name": "HingeAxle",
-          "topLevel": false,
-          "allAtoms": [
+            },
             {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-991",
+              "atomType": "Circle",
+              "x": 0.2173678532901834,
+              "y": 0.628175519630485,
+              "uniqueID": "id-1099",
               "ioValues": [
                 {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
+                  "name": "diameter",
+                  "ioValue": 20
                 }
               ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.21682847896440127,
+              "y": 0.789838337182448,
+              "uniqueID": "id-1102",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.5332101616628175,
+              "uniqueID": "id-1105",
+              "name": "WoodThick"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3149946062567422,
+              "y": 0.3810623556581986,
+              "uniqueID": "id-1108",
+              "name": "x/2",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 580
+                }
+              ],
+              "currentEquation": "x/2"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3187702265372168,
+              "y": 0.4942263279445727,
+              "uniqueID": "id-1112",
+              "name": "y/2",
+              "ioValues": [
+                {
+                  "name": "y",
+                  "ioValue": 430
+                }
+              ],
+              "currentEquation": "y/2"
             }
           ],
-          "allConnectors": [],
+          "allConnectors": [
+            {
+              "ap2Name": "x length",
+              "ap1ID": "id-1077",
+              "ap2ID": "id-1095"
+            },
+            {
+              "ap2Name": "x",
+              "ap1ID": "id-1077",
+              "ap2ID": "id-1108"
+            },
+            {
+              "ap2Name": "y length",
+              "ap1ID": "id-1080",
+              "ap2ID": "id-1095"
+            },
+            {
+              "ap2Name": "y",
+              "ap1ID": "id-1080",
+              "ap2ID": "id-1112"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-1089",
+              "ap2ID": "id-1099"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-1092",
+              "ap2ID": "id-1102"
+            }
+          ],
           "fileTypeVersion": 1
         },
         {
