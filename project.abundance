@@ -220,7 +220,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.95,
+      "y": 0.8845265588914549,
       "uniqueID": "id-572",
       "name": "NutThick"
     },
@@ -624,7 +624,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.95,
+      "y": 0.8314087759815243,
       "uniqueID": "id-767",
       "name": "ToothStockWidth"
     },
@@ -1231,6 +1231,77 @@
               "ioValue": 10
             }
           ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.4816612729234088,
+      "y": 0.21016166281755197,
+      "uniqueID": "id-993",
+      "name": "LiftingBolt",
+      "ioValues": [
+        {
+          "name": "LiftingBoltDiameter",
+          "ioValue": 7,
+          "currentEquation": "LiftingBoltDiameter"
+        },
+        {
+          "name": "NutThick",
+          "ioValue": null
+        },
+        {
+          "name": "NutWidth",
+          "ioValue": 10
+        },
+        {
+          "name": "TopThick",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-995",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.15473441108545033,
+          "uniqueID": "id-997",
+          "name": "LiftingBoltDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.21473441108545033,
+          "uniqueID": "id-1000",
+          "name": "NutThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.2747344110854503,
+          "uniqueID": "id-1003",
+          "name": "NutWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.3347344110854503,
+          "uniqueID": "id-1006",
+          "name": "TopThick"
         }
       ],
       "allConnectors": [],
