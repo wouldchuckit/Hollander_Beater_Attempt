@@ -11,11 +11,13 @@
     },
     {
       "name": "ElementsNumber",
-      "ioValue": 4
+      "ioValue": 4,
+      "currentEquation": "4"
     },
     {
       "name": "MoveX",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "MoveY",
