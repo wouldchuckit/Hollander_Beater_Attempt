@@ -27,7 +27,8 @@
     },
     {
       "name": "HingeAxleDiameter",
-      "ioValue": 10
+      "ioValue": 15,
+      "currentEquation": "15"
     },
     {
       "name": "LiftingBoltDiameter",
@@ -648,7 +649,7 @@
         },
         {
           "name": "HingeAxleDiameter",
-          "ioValue": 10,
+          "ioValue": 15,
           "currentEquation": "HingeAxleDiameter"
         },
         {
@@ -672,7 +673,7 @@
         },
         {
           "name": "CoverCurve",
-          "ioValue": 10.000000000000028,
+          "ioValue": 25.00000000000003,
           "currentEquation": "10"
         },
         {
@@ -892,8 +893,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.12567421790722763,
-          "y": 0.24018475750577367,
+          "x": 0.10679611650485438,
+          "y": 0.17090069284064663,
           "uniqueID": "id-981",
           "name": "MachineBlock",
           "ioValues": [
@@ -924,7 +925,7 @@
             },
             {
               "name": "HingeAxleDiameter",
-              "ioValue": 10,
+              "ioValue": 15,
               "currentEquation": "HingeAxleDiameter"
             },
             {
@@ -1025,7 +1026,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 15
                 }
               ]
             },
@@ -1038,8 +1039,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3149946062567422,
-              "y": 0.3810623556581986,
+              "x": 0.22060409924487595,
+              "y": 0.3510392609699769,
               "uniqueID": "id-1108",
               "name": "x/2",
               "ioValues": [
@@ -1052,8 +1053,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3187702265372168,
-              "y": 0.4942263279445727,
+              "x": 0.22276159654800431,
+              "y": 0.44110854503464203,
               "uniqueID": "id-1112",
               "name": "y/2",
               "ioValues": [
@@ -1063,6 +1064,127 @@
                 }
               ],
               "currentEquation": "y/2"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.30312837108953616,
+              "y": 0.27713625866050806,
+              "uniqueID": "id-1116",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 290
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 215
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.2993527508090615,
+              "y": 0.5635103926096998,
+              "uniqueID": "id-1122",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 380
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 210
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.30151024811218985,
+              "y": 0.8545034642032332,
+              "uniqueID": "id-1128",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 22.5,
+                  "currentEquation": "1.5 * HingeAxleDiameter"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 210
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.4374325782092773,
+              "y": 0.3140877598152425,
+              "uniqueID": "id-1134",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.37216828478964403,
+              "y": 0.6420323325635103,
+              "uniqueID": "id-1138",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5614886731391586,
+              "y": 0.3879907621247113,
+              "uniqueID": "id-1143",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -1087,6 +1209,21 @@
               "ap2ID": "id-1112"
             },
             {
+              "ap2Name": "xDist",
+              "ap1ID": "id-1083",
+              "ap2ID": "id-1122"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-1086",
+              "ap2ID": "id-1122"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-1086",
+              "ap2ID": "id-1128"
+            },
+            {
               "ap2Name": "diameter",
               "ap1ID": "id-1089",
               "ap2ID": "id-1099"
@@ -1095,6 +1232,66 @@
               "ap2Name": "diameter",
               "ap1ID": "id-1092",
               "ap2ID": "id-1102"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1095",
+              "ap2ID": "id-1116"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1099",
+              "ap2ID": "id-1122"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1102",
+              "ap2ID": "id-1128"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-1105",
+              "ap2ID": "id-1143"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-1108",
+              "ap2ID": "id-1116"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-1112",
+              "ap2ID": "id-1116"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-1116",
+              "ap2ID": "id-1134"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-1122",
+              "ap2ID": "id-1138"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-1128",
+              "ap2ID": "id-1138"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1134",
+              "ap2ID": "id-1143"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-1138",
+              "ap2ID": "id-1134"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1143",
+              "ap2ID": "id-983"
             }
           ],
           "fileTypeVersion": 1
