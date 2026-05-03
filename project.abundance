@@ -1552,6 +1552,30 @@
               "y": 0.95,
               "uniqueID": "id-1208",
               "name": "MachineHeight"
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.16073354908306364,
+              "y": 0.4295612009237875,
+              "uniqueID": "id-1228",
+              "name": "Molecule",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1230",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
@@ -1562,59 +1586,9 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.13214670981661272,
-          "y": 0.4295612009237875,
-          "uniqueID": "id-1214",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 580
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.21251348435814457,
-          "y": 0.5311778290993071,
-          "uniqueID": "id-1218",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
         }
       ],
       "allConnectors": [
-        {
-          "ap2Name": "x length",
-          "ap1ID": "id-822",
-          "ap2ID": "id-1214"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-978",
-          "ap2ID": "id-1214"
-        },
         {
           "ap2Name": "MachineBlock",
           "ap1ID": "id-981",
@@ -1624,11 +1598,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1147",
           "ap2ID": "id-772"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1214",
-          "ap2ID": "id-1218"
         }
       ],
       "fileTypeVersion": 1
