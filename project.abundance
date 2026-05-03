@@ -328,8 +328,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3694714131607335,
-      "y": 0.09006928406466513,
+      "x": 0.20873786407766992,
+      "y": 0.12240184757505775,
       "uniqueID": "id-74",
       "name": "PillowBlock",
       "ioValues": [
@@ -630,10 +630,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3727076591154261,
-      "y": 0.21709006928406466,
+      "x": 0.366235167206041,
+      "y": 0.29792147806004615,
       "uniqueID": "id-770",
-      "name": "RotorLayer",
+      "name": "PartsContainer",
       "ioValues": [
         {
           "name": "WoodThick",
@@ -721,8 +721,12 @@
           "ioValue": 430
         },
         {
-          "name": "Input",
+          "name": "PillowBlock",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Gap",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -867,8 +871,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.29395900755124055,
-          "y": 0.5635103926096998,
+          "x": 0.1267529665587918,
+          "y": 0.24711316397228636,
           "uniqueID": "id-828",
           "ioValues": [
             {
@@ -882,11 +886,320 @@
           ]
         },
         {
+          "atomType": "Circle",
+          "x": 0.12189859762675297,
+          "y": 0.4064665127020785,
+          "uniqueID": "id-899",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 20,
+              "currentEquation": "AxleDiameter"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1208198489751888,
+          "y": 0.5796766743648961,
+          "uniqueID": "id-902",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10,
+              "currentEquation": "HingeAxleDiameter"
+            }
+          ]
+        },
+        {
           "atomType": "Input",
           "x": 0.0165,
           "y": 0.95,
-          "uniqueID": "id-896",
+          "uniqueID": "id-975",
+          "name": "PillowBlock",
           "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-978",
+          "name": "Gap"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3689320388349514,
+      "y": 0.7274826789838337,
+      "uniqueID": "id-905",
+      "name": "RotorLayer",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 10,
+          "currentEquation": "WoodThick"
+        },
+        {
+          "name": "AxleDiameter",
+          "ioValue": 20,
+          "currentEquation": "AxleDiameter"
+        },
+        {
+          "name": "HingeAxleDiameter",
+          "ioValue": 10,
+          "currentEquation": "HingeAxleDiameter"
+        },
+        {
+          "name": "RotorRadius",
+          "ioValue": 170
+        },
+        {
+          "name": "UpSlope",
+          "ioValue": 9.260221531171478
+        },
+        {
+          "name": "DownSlope",
+          "ioValue": 45,
+          "currentEquation": "DownSlope"
+        },
+        {
+          "name": "TopSlope",
+          "ioValue": 30,
+          "currentEquation": "TopSlope"
+        },
+        {
+          "name": "CoverCurve",
+          "ioValue": 10.000000000000028
+        },
+        {
+          "name": "ToothStock",
+          "ioValue": 15,
+          "currentEquation": "ToothStock"
+        },
+        {
+          "name": "ToothHeight",
+          "ioValue": 5,
+          "currentEquation": "ToothHeight"
+        },
+        {
+          "name": "ToothThick",
+          "ioValue": 5,
+          "currentEquation": "ToothStockWidth"
+        },
+        {
+          "name": "TopThick",
+          "ioValue": 40,
+          "currentEquation": "TopThick"
+        },
+        {
+          "name": "BedPlateWidth",
+          "ioValue": 40,
+          "currentEquation": "BedPlate"
+        },
+        {
+          "name": "BaseHeight",
+          "ioValue": 30,
+          "currentEquation": "BaseHeight"
+        },
+        {
+          "name": "AxleX",
+          "ioValue": 380
+        },
+        {
+          "name": "AxleY",
+          "ioValue": 210
+        },
+        {
+          "name": "MachineLength",
+          "ioValue": 584
+        },
+        {
+          "name": "MachineHeight",
+          "ioValue": 430
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-906",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.1,
+          "uniqueID": "id-907",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.16,
+          "uniqueID": "id-908",
+          "name": "AxleDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.22,
+          "uniqueID": "id-909",
+          "name": "HingeAxleDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.28,
+          "uniqueID": "id-910",
+          "name": "RotorRadius"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.34,
+          "uniqueID": "id-911",
+          "name": "UpSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.4,
+          "uniqueID": "id-912",
+          "name": "DownSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.46,
+          "uniqueID": "id-913",
+          "name": "TopSlope"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.52,
+          "uniqueID": "id-914",
+          "name": "CoverCurve"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.5800000000000001,
+          "uniqueID": "id-915",
+          "name": "ToothStock"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.6400000000000001,
+          "uniqueID": "id-916",
+          "name": "ToothHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.7000000000000002,
+          "uniqueID": "id-917",
+          "name": "ToothThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.7600000000000002,
+          "uniqueID": "id-918",
+          "name": "TopThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.8200000000000003,
+          "uniqueID": "id-919",
+          "name": "BedPlateWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.8800000000000003,
+          "uniqueID": "id-920",
+          "name": "BaseHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.9400000000000004,
+          "uniqueID": "id-921",
+          "name": "AxleX"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-922",
+          "name": "AxleY"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-923",
+          "name": "MachineLength"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.95,
+          "uniqueID": "id-924",
+          "name": "MachineHeight"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.14563106796116507,
+          "y": 0.20554272517321018,
+          "uniqueID": "id-925",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.14670981661272922,
+          "y": 0.35334872979214776,
+          "uniqueID": "id-926",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.13754045307443366,
+          "y": 0.6420323325635103,
+          "uniqueID": "id-927",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [],
@@ -935,9 +1248,19 @@
       "ap2ID": "id-770"
     },
     {
+      "ap2Name": "RotorRadius",
+      "ap1ID": "id-584",
+      "ap2ID": "id-905"
+    },
+    {
       "ap2Name": "AxleX",
       "ap1ID": "id-598",
       "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "AxleX",
+      "ap1ID": "id-598",
+      "ap2ID": "id-905"
     },
     {
       "ap2Name": "AxleY",
@@ -945,9 +1268,19 @@
       "ap2ID": "id-770"
     },
     {
+      "ap2Name": "AxleY",
+      "ap1ID": "id-603",
+      "ap2ID": "id-905"
+    },
+    {
       "ap2Name": "MachineHeight",
       "ap1ID": "id-608",
       "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "MachineHeight",
+      "ap1ID": "id-608",
+      "ap2ID": "id-905"
     },
     {
       "ap2Name": "T",
@@ -960,14 +1293,34 @@
       "ap2ID": "id-770"
     },
     {
+      "ap2Name": "MachineLength",
+      "ap1ID": "id-615",
+      "ap2ID": "id-905"
+    },
+    {
       "ap2Name": "UpSlope",
       "ap1ID": "id-619",
+      "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "UpSlope",
+      "ap1ID": "id-619",
+      "ap2ID": "id-905"
+    },
+    {
+      "ap2Name": "PillowBlock",
+      "ap1ID": "id-74",
       "ap2ID": "id-770"
     },
     {
       "ap2Name": "CoverCurve",
       "ap1ID": "id-755",
       "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "CoverCurve",
+      "ap1ID": "id-755",
+      "ap2ID": "id-905"
     },
     {
       "ap2Name": "TSR",
