@@ -760,21 +760,21 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.16,
+          "y": 0.15473441108545033,
           "uniqueID": "id-777",
           "name": "AxleDiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.22,
+          "y": 0.18937644341801385,
           "uniqueID": "id-780",
           "name": "HingeAxleDiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.28,
+          "y": 0.27251732101616627,
           "uniqueID": "id-783",
           "name": "RotorRadius"
         },
@@ -893,8 +893,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.10679611650485438,
-          "y": 0.17090069284064663,
+          "x": 0.11758360302049621,
+          "y": 0.24018475750577367,
           "uniqueID": "id-981",
           "name": "MachineBlock",
           "ioValues": [
@@ -1303,6 +1303,55 @@
           "uniqueID": "id-1074",
           "name": "LiftingBolt",
           "type": "geometry"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.2011866235167206,
+          "y": 0.18937644341801385,
+          "uniqueID": "id-1147",
+          "name": "RotorLayer",
+          "ioValues": [
+            {
+              "name": "MachineBlock",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Gap",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1149",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.1,
+              "uniqueID": "id-1151",
+              "name": "MachineBlock",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.16,
+              "uniqueID": "id-1154",
+              "name": "Gap"
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [],
