@@ -893,8 +893,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.11758360302049621,
-          "y": 0.24018475750577367,
+          "x": 0.11488673139158576,
+          "y": 0.21247113163972287,
           "uniqueID": "id-981",
           "name": "MachineBlock",
           "ioValues": [
@@ -1306,8 +1306,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2011866235167206,
-          "y": 0.18937644341801385,
+          "x": 0.26645091693635387,
+          "y": 0.302540415704388,
           "uniqueID": "id-1147",
           "name": "RotorLayer",
           "ioValues": [
@@ -1554,11 +1554,83 @@
               "name": "MachineHeight"
             }
           ],
-          "allConnectors": [],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1151",
+              "ap2ID": "id-1149"
+            }
+          ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.13214670981661272,
+          "y": 0.4295612009237875,
+          "uniqueID": "id-1214",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 580
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.21251348435814457,
+          "y": 0.5311778290993071,
+          "uniqueID": "id-1218",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-822",
+          "ap2ID": "id-1214"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-978",
+          "ap2ID": "id-1214"
+        },
+        {
+          "ap2Name": "MachineBlock",
+          "ap1ID": "id-981",
+          "ap2ID": "id-1147"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1147",
+          "ap2ID": "id-772"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1214",
+          "ap2ID": "id-1218"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
